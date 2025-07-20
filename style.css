@@ -55,6 +55,7 @@ h1 {
 
 .bottom-nav {
     background-color: white;
+    z-index: 100;
     height: 10vh;
     display: flex;
     justify-content: space-around;
