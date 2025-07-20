@@ -9,22 +9,23 @@
 <body>
     <div class="content">
         <h1>Flowerz</h1>
+        <h2>Cliquez sur la fleur pour avoir l'image cible</h2>
         <div class="image-grid-wrapper">
             <div class="image-grid">
                 <div class="image-item">
-                    <img src="images/rose.png" alt="rose">
+                    <img src="images/rose.png" alt="rose" onclick="openLightbox('images/rose-target.jpg')">
                     <p>Rose</p>
                 </div>
                 <div class="image-item">
-                    <img src="images/tulip.png" alt="Tulipe">
+                    <img src="images/tulip.png" alt="Tulipe" onclick="openLightbox('images/tulip-target.jpg')">
                     <p>Tulipe</p>
                 </div>
                 <div class="image-item">
-                    <img src="images/daisy.png" alt="Marguerite">
+                    <img src="images/daisy.png" alt="Marguerite" onclick="openLightbox('images/daisy-target.jpg')">
                     <p>Marguerite</p>
                 </div>
                 <div class="image-item">
-                    <img src="images/sunflower.png" alt="Tournesol">
+                    <img src="images/sunflower.png" alt="Tournesol" onclick="openLightbox('images/sunflower-target.jpg')">
                     <p>Tournesol</p>
                 </div>
                 <div class="image-item">
@@ -46,6 +47,22 @@
             </div>
         </div>
     </div>
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-image">
+    </div>
+
+    <script>
+        function openLightbox(imageSrc) {
+            document.getElementById('lightbox-image').src = imageSrc;
+            document.getElementById('lightbox').style.display = 'flex';
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightbox').style.display = 'none';
+        }
+    </script>
 
     <div class="bottom-nav">
         <div class="nav-icon">
