@@ -24,6 +24,7 @@ h1 {
 .image-grid-wrapper {
     width: 100%;
     padding: 20px 15%;
+    padding-bottom: 30%;
 }
 
 .image-grid {
