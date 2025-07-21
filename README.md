@@ -32,3 +32,18 @@ Vous scannez la couverture et paf! Votre fleur apparaît et votre carte est enre
 ---
 
 N'hésitez pas à ouvrir le projet sur pc pour avoir accès au cibles et sur téléphone pour les scanner facilement depuis chez vous 🔥
+
+
+Utilisation de l'IA pour le projet et les codes HTML/CSS/JS
+
+PROMPT :
+
+"Generate a responsive HTML and CSS code using my Figma screens and the provided images. Ensure the code is clean, well-structured, and follows best practices. Include media queries for mobile responsiveness and add navigation links."
+
+Critique :
+
+L'IA a fait un bon travail en fournissant un code bien organisé et facile à lire, notamment pour la css grid. Les fichiers HTML et CSS étaient bien séparés, ce qui est une bonne pratique.\
+Les media queries fonctionnaient bien, rendant l'interface adaptable à différents écrans mobiles. Les liens de navigation étaient également bien intégrés et fonctionnels.
+
+Cependant, il a fallu que j'ajuste certains détails pour que tout soit parfait. Par exemple, j'ai dû remplacer les noms des fichiers par les miens et consulter la documentation de MindAR.JS pour faire le JS car il ne l'a comprenait pas.\
+
