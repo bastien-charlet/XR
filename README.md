@@ -1,10 +1,10 @@
 # 💐 **Flowerz - Smart tech** 💐
 
 ## 🎨 Présentation  
-Ce projet explore le **concept de réalité augmenté** à travers un "jeu de cartes" sur le thème des fleurs nommé **Flowerz** 💐\
+Ce projet explore le **concept de réalité augmenté** à travers un jeu sur le thème des fleurs nommé **Flowerz** 💐\
 L'objectif est de **méler 3D et XR** sous forme d'expérience visuelle immersive 🃏\
 Avez-vous déjà reçu une carte, pour votre anniversaire ou une fête, avec une belle couverture florale et de gentils mots à l'intérieur ? Cette carte peut aller plus loin et révéler une autre surprise ✨\
-Vous scannez la couverture et paf! Votre fleur apparaît et votre carte est enregistrée dans la collection 😁\
+Vous scannez la couverture et paf! Votre fleur apparaît et votre carte est enregistrée dans la collection 😁
 
 ---
 
